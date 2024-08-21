@@ -1,0 +1,244 @@
+.topBar {
+    float: left;
+    width: 100%;
+    z-index: 5;
+    position: relative;
+}
+
+.topContent {
+    float: left;
+    width: 33%;
+}
+
+.lang-button {
+    padding: 0.4375rem 0.8125rem;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    color: #fff;
+    background-color: #1779ba;
+}
+
+#datetime-local {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.topBtn {
+    float: right;
+    margin-top: 15px;
+}
+
+.topBtn a {
+    text-decoration: none;
+}
+
+.topBtn .lang-button:hover {
+    color: #fff;
+    background-color: #656e7e
+}
+
+/* nav Bar */
+#navMenu{
+    position: sticky;
+    top: -80px;
+    z-index: 1;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(201, 202, 202);
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    color: black;
+    font-size: 20px;
+}
+
+nav .dropdown {
+    border-bottom: none;
+    background-color: white;
+    border-radius: 15px;
+}
+
+nav ul li .dropdown li {
+    display: block;
+}
+
+nav ul li .dropdown {
+    width: 100%;
+    display: none;
+    position: absolute;
+}
+
+nav ul li a:hover {
+    background-color: rgb(238, 238, 238);
+    color: black;
+    border-radius: 5px;
+}
+
+nav ul li:hover .dropdown {
+    display: block;
+    width: 200px;
+    text-align: left;
+
+}
+
+nav ul li {
+    text-align: left;
+}
+
+/* Business Menu */
+#sportsMenu {
+    justify-content: left;
+    margin-left: -10px;
+}
+
+/* Business Container */
+.busines-container{
+    float: left;
+    width: 100%;
+}
+.content-1{
+    float: left;
+    width: 53%;
+}
+.business-content-text{
+    width: 20%;
+}
+
+.container-1 a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.container-1 a:hover {
+    color: #1779ba;
+}
+
+.container-2 img:hover {
+    transition: all 1s ease;
+    transform: scale(1.04);
+}
+/* Second Container */
+.top-container img {
+    align-items: center;
+}
+
+.container-2 {
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+}
+
+.top-container {
+    float: left;
+    width: 21%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* Football Container */
+.football {
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+}
+
+.football-left {
+    float: left;
+    width: 40%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.football-center {
+    float: left;
+    width: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.football-center h3 {
+    margin-top: 0;
+}
+
+.f-c_container {
+    float: left;
+    width: 47%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.f-c_container img {
+    float: right;
+}
+.center-content {
+    display: flex;
+}
+
+.football-right {
+    float: left;
+    width: 23%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    float: left;
+    color: white;
+}
+
+.top-footer {
+    float: left;
+    width: 15%;
+}
+
+.footer_border {
+    border-bottom: 1px solid gray;
+    float: left;
+    width: 100%;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+.footer-img {
+    width: 35%;
+    margin-left: 60px;
+}
+
+footer a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: 20px;
+}
+
+footer a:hover {
+    color: gray;
+}
+
+.bottom_footer {
+    text-align: center;
+    margin-top: 250px;
+    color: gray;
+}
+
+.footer-img h2 {
+    color: rgb(153, 191, 209);
+}
